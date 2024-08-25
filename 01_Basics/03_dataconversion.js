@@ -84,13 +84,56 @@ let boolvalue6= Boolean(valueBool7)
 
 
 
-console.log(boolvalue);
-console.log(boolvalue1);
-console.log(boolvalue2);
-console.log(boolvalue3);
-console.log(boolvalue4);
-console.log(boolvalue5);
-console.log(boolvalue6);
+// console.log(boolvalue);
+// console.log(boolvalue1);
+// console.log(boolvalue2);
+// console.log(boolvalue3);
+// console.log(boolvalue4);
+// console.log(boolvalue5);
+// console.log(boolvalue6);
+
+
+/****************OPERATIONS******************/
+
+// console.log(2);
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2/2);
+// console.log(2*2);
+// console.log(2**2);
+// console.log(2%2);
+
+
+let str = "hello"
+let str1 = " ashish"
+let str2= str+str1;
+// console.log(str2);
+// console.log(1+2);
+// console.log("1"+2);
+// console.log(1+"2");
+// console.log("1"+2+3);
+// console.log(2+3+"1");
+// console.log(+"");
+// console.log(+true);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
