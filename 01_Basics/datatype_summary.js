@@ -43,9 +43,49 @@ const myfunction= function(){
 }
 
 
-console.log( typeof heroes);
-console.log( typeof student);
-console.log( typeof myfunction);
+// console.log( typeof heroes);
+// console.log( typeof student);
+// console.log( typeof myfunction);
+/***********************Types of Memory************************** */
+/* Stack(Primitive) Heap(Non-primitive)
+
+stack-whenever we are going to store data in stack we get the copy of it.
+heap- whenever we are going to store data in heap we get the reference of it.
+
+
+*/
+
+
+let myValue= "ashish"
+let myValue2= myValue
+// console.log(myValue2);
+myValue2="ashish kumar"
+// console.log(myValue);
+// console.log(myValue2);
+
+
+let myObject={
+
+    name:"ashish",
+    age:25,
+    email:"ashish@gmail.com"
+}
+
+
+let myObject1= myObject
+
+// console.log(myObject);
+// console.log(myObject);
+
+
+myObject1.email="hari@gmail.com"
+
+
+ console.log(myObject.email);
+ console.log(myObject.email);
+
+
+
 
 
 
