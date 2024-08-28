@@ -108,9 +108,22 @@ console.log(Object.values(myObject2));
 console.log(Object.entries(myObject2));
 
 
-console.log(myObject2.hasOwnProperty('id1'));
+// console.log(myObject2.hasOwnProperty('id1'));
 // this method will check whether this method is present in the object or not
 
+myUser= {
+
+    id: 1,
+    name: 'ashish',
+    age:25
+}
+
+// object destructuring
+const {age}=myUser
+const {age:Age}=myUser
+
+console.log(age);
+console.log(Age);
 
 
 
