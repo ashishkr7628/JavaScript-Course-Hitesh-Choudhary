@@ -1,6 +1,7 @@
 // for each is a method in array
 // it is used for iterating the array
 // it takes call back function as argument
+// it will not return anything/array
 
 
 const myArray=["js","cpp","java","rb","py"]
