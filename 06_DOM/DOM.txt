@@ -1,0 +1,25 @@
+DOM- Document Object Model
+
+
+ways to target the element :-
+
+1. document.getElementById("id")
+2. document.getElementByClassName("class-name")- it will give HTML collection
+3. document.querySelector("")- here we can give tags,id,class-name
+
+document.querySelector(".class-name")
+document.querySelector("#id-name")
+it will only give the first element
+
+4.document.querySelectorAll("")- it will give the NodeList
+
+NodeList is similiar to array and it has foreach method
+For performing map and other functions in this we have to convert it to array
+
+Array.from(NodeList)
+Array.from(Html-collection)
+
+
+innerText= it will give the visible content of the element
+innerHTML= it will give both content and the tags inside the element
+textContent= it will give the actual content of the element also the hidden content where display is none
