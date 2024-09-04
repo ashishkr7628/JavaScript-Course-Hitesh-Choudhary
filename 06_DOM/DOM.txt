@@ -23,3 +23,17 @@ Array.from(Html-collection)
 innerText= it will give the visible content of the element
 innerHTML= it will give both content and the tags inside the element
 textContent= it will give the actual content of the element also the hidden content where display is none
+
+if main div has many tags inside it, it is going to be called children of the main tag and main tag is going to be called parent
+
+parent.children will give the HTML collection of the all elements/tags inside the main tag
+parent.firstElementChild will give the first element inside of the main tag/element
+parent.lastElementChild will give the last element inside of the main element /tag
+
+querySelector() will return the first element corresponding to the argument passed
+
+innerElement.parentElement will give the parent of the inner element /tag
+innerElement.nextElementSibling will give the next element or neighbouring element
+parent.childNodes will give the NodeList comprises of nodes
+
+innerHTML and nextline both considered as nodes
