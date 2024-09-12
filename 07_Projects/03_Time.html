@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time</title>
+
+<style>
+
+body{
+
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+height: 100vh;
+width: 100%;
+
+background-color: grey;
+
+
+
+
+}
+
+
+
+#clock{
+
+
+    margin: 0 auto;
+height: 10vh;
+
+width: 30%;
+
+
+    background-color: yellow;
+    
+    color: white;
+    margin: 0 auto;
+    height: 10vh;
+
+width: 30%;
+margin-top: 1%;
+margin-left: 37%;
+font-size: x-large;
+margin-bottom: 2%;
+
+}
+
+.head{
+
+
+
+
+    color: white;
+    margin: 0 auto;
+    height: 10vh;
+
+width: 30%;
+margin-top: 10%;
+
+font-size: x-large;
+margin-bottom: 2%;
+}
+
+
+
+</style>
+
+
+</head>
+
+
+
+
+<body>
+
+
+<div class="head">Your Local Time</div>
+    <span id="clock"></span>
+    
+</body>
+
+
+<script>
+
+const clock=document.getElementById("clock")
+
+
+setInterval(()=>{
+    const date = new Date().toLocaleTimeString()
+    console.log(date);
+
+    clock.innerHTML=date
+    
+
+
+
+
+},1000)
+
+
+
+</script>
+</html>
