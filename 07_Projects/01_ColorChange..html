@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Change</title>
+</head>
+<style>
+body{
+
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+height: 100vh;
+width: 100%;
+
+
+
+}
+
+div{
+
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+
+
+
+}
+
+.button{
+
+height: 20vh;
+width: 10%;
+background-color: black;
+
+margin-left: 5%;
+
+border: 1px black solid;
+
+}
+
+#grey{
+
+    background-color: grey;
+}
+#blue{
+
+    background-color: blue;
+}
+#red{
+
+    background-color: red;
+}
+#green{
+
+    background-color: green;
+}
+
+.head{
+
+padding: 0 auto;
+
+font-size: xx-large;
+
+margin-bottom: 5%;
+
+margin-top: 1%;
+
+}
+
+
+
+</style>
+<body>
+<div class="head">Background Color Changer</div>    
+<div>
+
+<div class="button" id="green"></div>
+<div class="button" id="blue"></div>
+<div class="button" id="red"></div>
+<div class="button" id="grey"></div>
+
+
+
+
+
+
+</div>
+
+
+<script>
+
+const button=document.querySelectorAll(".button")
+
+const body = document.querySelector("body")
+
+button.forEach((list)=>{
+
+
+    list.addEventListener("click", (e)=>{
+
+        console.log(e);
+        console.log(e.target); // element where event is triggered
+
+        switch(e.target.id){
+
+
+            case "grey":
+
+            body.style.backgroundColor= e.target.id
+
+            break;
+            case "red":
+
+            body.style.backgroundColor= e.target.id
+
+            break;
+            case "blue":
+
+            body.style.backgroundColor= e.target.id
+
+            break;
+            case "green":
+
+            body.style.backgroundColor= e.target.id
+
+            break;
+
+            default:
+
+            body.style.backgroundColor="white"
+
+
+
+
+
+
+
+
+
+        }
+
+
+        
+
+
+
+
+
+
+    });
+
+
+
+
+
+});
+
+
+
+
+</script>
+
+
+</body>
+</html>
